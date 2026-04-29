@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - SP Electrical Solutions</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-inner">
+                <div class="top-bar-left">
+                    <a href="tel:+919876543210"><i class="fas fa-phone-alt"></i> +91 98765 43210</a>
+                    <a href="mailto:info@spelectrical.in"><i class="fas fa-envelope"></i> info@spelectrical.in</a>
+                    <a href="#"><i class="fas fa-map-marker-alt"></i> Gurugram, Haryana</a>
+                </div>
+                <div class="top-bar-right">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-inner">
+                <a href="../index.html" class="logo">
+                    <div class="logo-icon"><i class="fas fa-bolt"></i></div>
+                    <div class="logo-text"><span class="logo-name">SP Electrical</span><span class="logo-sub">Solutions</span></div>
+                </a>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <h1>Our Products</h1>
+        <div class="breadcrumb">
+            <a href="../index.html">Home</a>
+            <i class="fas fa-chevron-right"></i>
+            <span>Products</span>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-tag">Our Products</div>
+                <h2 class="section-title">Premium Electrical <span>Products</span></h2>
+                <p class="section-subtitle">High-quality electrical equipment and solutions for all your needs</p>
+            </div>
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn" data-filter="electrical">Electrical</button>
+                <button class="filter-btn" data-filter="contractor">Electrical Contractor</button>
+                <button class="filter-btn" data-filter="repair">Repair &amp; Services</button>
+                <button class="filter-btn" data-filter="transformer">Transformer</button>
+            </div>
+            <div class="products-grid">
+
+                <div class="product-card" data-category="contractor">
+                    <div class="card-image">
+                        <img src="../images/electrical-work1.jpg" alt="Electrical Contractor Services">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Electrical Contractor</span>
+                        <h4>Electrical Contractor Services</h4>
+                        <p>Top-notch electrical contractor services tailored to the specific needs of residents and businesses. Experienced and certified electricians providing comprehensive electrical solutions.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="contractor">
+                    <div class="card-image">
+                        <img src="../images/industrial.jpg" alt="Electrical Engineering Company">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Electrical Contractor</span>
+                        <h4>Electrical Engineering Company</h4>
+                        <p>Leading electrical engineering company committed to delivering innovative and reliable solutions. Expertise in power distribution, lighting, safety systems, and building automation.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="transformer">
+                    <div class="card-image">
+                        <img src="../images/transformer.jpg" alt="Distribution Transformer Repair">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Transformer</span>
+                        <h4>Distribution Transformer Repair</h4>
+                        <p>Expert transformer repair services including overheating fixes, oil leak repairs, winding replacement, core restacking, and insulation restoration.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="contractor">
+                    <div class="card-image">
+                        <img src="../images/tools.jpg" alt="Electrical Contractors in Gurgaon">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Electrical Contractor</span>
+                        <h4>Electrical Contractors in Gurgaon</h4>
+                        <p>Reliable electrical contractor services since 2015. Quality workmanship, strict safety standards, wide range of residential and commercial services.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="electrical">
+                    <div class="card-image">
+                        <img src="../images/engineer.jpg" alt="Electrical Consultants">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Electrical</span>
+                        <h4>Electrical Contractors &amp; Consultants</h4>
+                        <p>Professional electrical contractors for hands-on work and registered electrical engineers for project planning, design, and specifications.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="electrical">
+                    <div class="card-image">
+                        <img src="../images/wiring.jpg" alt="Top Electrician Services">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Electrical</span>
+                        <h4>Top 10 Electrician Services</h4>
+                        <p>Comprehensive range of services: residential, commercial, industrial electrical, transformer installation, panel repair, lighting design, security systems, and more.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="electrical">
+                    <div class="card-image">
+                        <img src="../images/panel.jpg" alt="Electrical Panel Manufacturer">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Electrical</span>
+                        <h4>Electrical Panel Manufacturer</h4>
+                        <p>High-quality electrical panels: LT Distribution Panels, Power Control Panels, Metering Panels, AMF Panels, and custom electrical panels to meet your specifications.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="electrical">
+                    <div class="card-image">
+                        <img src="../images/safety.jpg" alt="Earth Pit Installation">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Electrical</span>
+                        <h4>Earth Pit Installation</h4>
+                        <p>Comprehensive earthing solutions including pre-fabricated earthing pits, earthing plates and rods, backfilling compounds. Custom solutions for every project.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="electrical">
+                    <div class="card-image">
+                        <img src="../images/meter.jpg" alt="Servo Voltage Stabilizer">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Electrical</span>
+                        <h4>Servo Voltage Stabilizer</h4>
+                        <p>Wide range of servo voltage stabilizers for domestic, commercial, and industrial applications. Reliable performance, high accuracy, comprehensive safety features.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="repair">
+                    <div class="card-image">
+                        <img src="../images/circuit-board.jpg" alt="ACB Services">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Repair &amp; Services</span>
+                        <h4>Air Circuit Breaker (ACB) Services</h4>
+                        <p>Professional ACB repair and maintenance. Accurate diagnosis, genuine manufacturer-approved parts, and preventative maintenance plans for your circuit breakers.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="transformer">
+                    <div class="card-image">
+                        <img src="../images/power-lines.jpg" alt="Power Transformer">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Transformer</span>
+                        <h4>Power Transformer Supplier</h4>
+                        <p>Premium quality power transformers for industrial and commercial applications. Reliable supply with installation and commissioning support.</p>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="repair">
+                    <div class="card-image">
+                        <img src="../images/cable.jpg" alt="VCB Repair">
+                        <div class="card-overlay"><a href="contact.html" class="btn btn-sm btn-white">Send Enquiry</a></div>
+                    </div>
+                    <div class="card-body">
+                        <span class="card-tag">Repair &amp; Services</span>
+                        <h4>VCB Repair and Services</h4>
+                        <p>Vacuum Circuit Breaker repair and maintenance. Prompt diagnosis, precision repairs, proactive maintenance strategies for minimal downtime.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-inner">
+                <h2>Need a Custom Solution?</h2>
+                <p>Contact us for customized electrical products and solutions tailored to your requirements.</p>
+                <div class="cta-buttons">
+                    <a href="tel:+919876543210" class="btn btn-white"><i class="fas fa-phone-alt"></i> <span>Call Now</span></a>
+                    <a href="contact.html" class="btn btn-outline"><span>Send Enquiry</span> <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="../index.html" class="footer-logo">
+                        <div class="logo-icon"><i class="fas fa-bolt"></i></div>
+                        <div class="logo-text"><span class="logo-name">SP Electrical</span><span class="logo-sub">Solutions</span></div>
+                    </a>
+                    <p class="footer-desc">Leading electrical engineering solutions provider in Delhi NCR, delivering excellence since 2015.</p>
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="../index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="services.html">Services</a></li><li><a href="products.html">Products</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+                <div class="footer-links"><h4>Our Services</h4><ul><li><a href="services.html">Electrical Design</a></li><li><a href="services.html">Installation</a></li><li><a href="services.html">Maintenance &amp; Repair</a></li><li><a href="services.html">Transformer Services</a></li><li><a href="services.html">AMC Services</a></li><li><a href="services.html">Consulting</a></li></ul></div>
+                <div><h4>Contact Info</h4>
+                    <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><p>Plot No. 45, Industrial Area,<br>Sector 18, Gurugram 122015</p></div>
+                    <div class="footer-contact-item"><i class="fas fa-phone-alt"></i><p>+91 98765 43210</p></div>
+                    <div class="footer-contact-item"><i class="fas fa-envelope"></i><p>info@spelectrical.in</p></div>
+                </div>
+            </div>
+            <div class="footer-bottom"><p>SP Electrical Solutions. All Rights Reserved.</p></div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+    <button id="backToTop" class="back-to-top"><i class="fas fa-chevron-up"></i></button>
+    <script src="../js/main.js"></script>
+</body>
+</html>
